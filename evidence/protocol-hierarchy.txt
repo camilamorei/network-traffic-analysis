@@ -1,0 +1,19 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+frame                                    frames:17 bytes:1532
+  eth                                    frames:17 bytes:1532
+    loop                                 frames:5 bytes:300
+      data                               frames:5 bytes:300
+    llc                                  frames:1 bytes:333
+      cdp                                frames:1 bytes:333
+    ip                                   frames:6 bytes:671
+      udp                                frames:3 bytes:405
+        dns                              frames:2 bytes:367
+        data                             frames:1 bytes:38
+      data                               frames:1 bytes:70
+      icmp                               frames:2 bytes:196
+    arp                                  frames:5 bytes:228
+===================================================================

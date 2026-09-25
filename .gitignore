@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log

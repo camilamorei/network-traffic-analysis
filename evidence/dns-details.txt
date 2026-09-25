@@ -1,0 +1,241 @@
+Frame 6: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  8, 1999 23:11:26.294020000 -05
+    UTC Arrival Time: Sep  9, 1999 04:11:26.294020000 UTC
+    Epoch Arrival Time: 936850286.294020000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 223.456000 milliseconds]
+    [Time since reference or first frame: 30.292923000 seconds]
+    Frame Number: 6
+    Frame Length: 78 bytes (624 bits)
+    Capture Length: 78 bytes (624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: AddtronTechn_d9:7c:fd (00:40:33:d9:7c:fd), Dst: Toshiba_cf:d9:cd (00:00:39:cf:d9:cd)
+    Destination: Toshiba_cf:d9:cd (00:00:39:cf:d9:cd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AddtronTechn_d9:7c:fd (00:40:33:d9:7c:fd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 2]
+Internet Protocol Version 4, Src: 10.0.0.6, Dst: 151.164.1.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 64
+    Identification: 0x13e4 (5092)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xc417 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.6
+    Destination Address: 151.164.1.8
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 1035, Dst Port: 53
+    Source Port: 1035
+    Destination Port: 53
+    Length: 44
+    Checksum: 0x27f2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (36 bytes)
+Domain Name System (query)
+    Transaction ID: 0x7d9e
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        picard.uthscsa.edu: type A, class IN
+            Name: picard.uthscsa.edu
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+
+Frame 7: Packet, 289 bytes on wire (2312 bits), 289 bytes captured (2312 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  8, 1999 23:11:26.613908000 -05
+    UTC Arrival Time: Sep  9, 1999 04:11:26.613908000 UTC
+    Epoch Arrival Time: 936850286.613908000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 319.888000 milliseconds]
+    [Time delta from previous displayed frame: 319.888000 milliseconds]
+    [Time since reference or first frame: 30.612811000 seconds]
+    Frame Number: 7
+    Frame Length: 289 bytes (2312 bits)
+    Capture Length: 289 bytes (2312 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: Toshiba_cf:d9:cd (00:00:39:cf:d9:cd), Dst: AddtronTechn_d9:7c:fd (00:40:33:d9:7c:fd)
+    Destination: AddtronTechn_d9:7c:fd (00:40:33:d9:7c:fd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Toshiba_cf:d9:cd (00:00:39:cf:d9:cd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 2]
+Internet Protocol Version 4, Src: 151.164.1.8, Dst: 10.0.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 275
+    Identification: 0x9c5d (40029)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 246
+    Protocol: UDP (17)
+    Header Checksum: 0x44ca [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 151.164.1.8
+    Destination Address: 10.0.0.6
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 1035
+    Source Port: 53
+    Destination Port: 1035
+    Length: 255
+    Checksum: 0x3c87 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 319.888000 milliseconds]
+        [Time since previous frame: 319.888000 milliseconds]
+    UDP payload (247 bytes)
+Domain Name System (response)
+    Transaction ID: 0x7d9e
+    Flags: 0x8580 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 5
+    Additional RRs: 5
+    Queries
+        picard.uthscsa.edu: type A, class IN
+            Name: picard.uthscsa.edu
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        picard.uthscsa.edu: type A, class IN, addr 129.111.30.27
+            Name: picard.uthscsa.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 4
+            Address: 129.111.30.27
+    Authoritative nameservers
+        uthscsa.edu: type NS, class IN, ns kenobi.uthscsa.edu
+            Name: uthscsa.edu
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 9
+            Name Server: kenobi.uthscsa.edu
+        uthscsa.edu: type NS, class IN, ns jinn.uthscsa.edu
+            Name: uthscsa.edu
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 7
+            Name Server: jinn.uthscsa.edu
+        uthscsa.edu: type NS, class IN, ns dns1.njit.edu
+            Name: uthscsa.edu
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 12
+            Name Server: dns1.njit.edu
+        uthscsa.edu: type NS, class IN, ns elzip.uthscsa.edu
+            Name: uthscsa.edu
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 8
+            Name Server: elzip.uthscsa.edu
+        uthscsa.edu: type NS, class IN, ns arwen.uthscsa.edu
+            Name: uthscsa.edu
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 8
+            Name Server: arwen.uthscsa.edu
+    Additional records
+        kenobi.uthscsa.edu: type A, class IN, addr 129.111.26.6
+            Name: kenobi.uthscsa.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 4
+            Address: 129.111.26.6
+        jinn.uthscsa.edu: type A, class IN, addr 129.111.26.7
+            Name: jinn.uthscsa.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 4
+            Address: 129.111.26.7
+        dns1.njit.edu: type A, class IN, addr 128.235.251.10
+            Name: dns1.njit.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 66434 (18 hours, 27 minutes, 14 seconds)
+            Data length: 4
+            Address: 128.235.251.10
+        elzip.uthscsa.edu: type A, class IN, addr 129.111.1.11
+            Name: elzip.uthscsa.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 4
+            Address: 129.111.1.11
+        arwen.uthscsa.edu: type A, class IN, addr 129.111.11.81
+            Name: arwen.uthscsa.edu
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 3600 (1 hour)
+            Data length: 4
+            Address: 129.111.11.81
+    [Request In: 6]
+    [Time: 319.888000 milliseconds]
+
